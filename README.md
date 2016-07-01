@@ -20,4 +20,6 @@ After that, you can use the logger as expected:
     logger.error("error message") -- ERROR:root: error message
     logger.critical("critical error message") -- CRITICAL:root: critical error message
     
+To change the logging level for this file only, use `logger.set_loglevel(loglevel)` in similar fashion to `logging.set_default_loglevel(loglevel)`
+    
 see `tests/` for an example project (it's a bit preposterous of me to call them tests)
